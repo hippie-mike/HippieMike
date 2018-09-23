@@ -1,0 +1,33 @@
+background(219, 255, 255);
+
+fill(174, 180, 214);
+triangle(200, 28, 350, 150, 50, 150);
+
+fill(163, 36, 40);
+rect(60, 150, 280, 207);
+
+
+for(var n=75;n<=178;n+=12){
+    var lineX=n*2;
+    line(60,lineX,340,lineX);  
+    for(var t=11;t<=80;t+=10){
+        var lineY=t*10;
+        line(lineY,149,lineY,357);
+
+    }
+}
+for(var view=10;view<=200;view++){
+    for(var opt1=25;opt1<=100;opt1+=16){
+        var opt2= opt1/2;
+        fill(192, 201, 204);
+    ellipse(opt2*7,200,view/4,view/4);
+}
+}
+
+fill(120, 80, 19);
+rect(180, 280, 40, 77);
+
+for(var x=10;x<=350;x+=103){
+    var myTree=image(getImage("cute/TreeTall"),x,300,80,100);
+ }
+ 
